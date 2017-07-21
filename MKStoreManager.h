@@ -91,6 +91,7 @@
 // but in case you want the receipt data to be posted to your server, use this.
 +(id) receiptForKey:(NSString*) key;
 +(void) setObject:(id) object forKey:(NSString*) key;
++(BOOL) removeObjectForKey:(NSString*) key;
 +(NSNumber*) numberForKey:(NSString*) key;
 
 @end
